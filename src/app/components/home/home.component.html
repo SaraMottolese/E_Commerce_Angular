@@ -1,0 +1,16 @@
+<div class="container d-flex">
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let item of items">
+            <div class="card mb-4" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.name}}</h5>
+                    <p class="card-text">{{item.description.substring(0,60)}}<a [routerLink]="['/products/', item.id]" class="link-interno">...</a>
+                    </p>
+                    <button [routerLink]="[ '/products/', item.id]" class="btn btn-primary">Dettagli prodotto</button>
+                    <button class="btn btn-warning" (click)="addToCart(item.id)">Aggiungi al carrello</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

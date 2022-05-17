@@ -1,28 +1,136 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Phone XL",
-      "price": 799,
-      "description": "Uno dei migliori smartphone in commercio, con schermo ampio"
+      "name": "Dixit",
+      "price": 35,
+      "description": "Gioco da Tavolo, Divertimento per Famiglia e Amici",
+      "id": 5
     },
     {
-      "id": 2,
-      "name": "Phone Mini",
-      "price": 699,
-      "description": "Ha un'ottima fotocamera anche se piccolo"
+      "name": "Bang!",
+      "price": 17,
+      "description": "è il gioco di carte western più venduto al mondo",
+      "id": 6
     },
     {
-      "id": 3,
-      "name": "Phone Standard",
-      "price": 299,
-      "description": ""
+      "name": "Zombicide",
+      "price": 90,
+      "description": "Forma una squadra fantasy assieme ai tuoi amici e sfrutta le tue abilità e il lavoro di squadra per trionfare contro l’orda dei contagiati!",
+      "id": 7
     },
     {
-      "name": "OnePlus Nord",
-      "price": 500,
-      "description": "Il mio telefono",
-      "id": 4
+      "name": "Scarabeo",
+      "price": 26,
+      "description": "Gioco da tavolo per tutta la famiglia. Il gioco di parole in scatola",
+      "id": 8
+    },
+    {
+      "name": "Story Cubes",
+      "price": 13,
+      "description": "Lancia i Rory's Story Cubes e inventa una storia che colleghi tutte le immagini sulle facce dei dadi",
+      "id": 9
+    },
+    {
+      "name": "HeroQuest",
+      "price": 130,
+      "description": "Avventura coinvolgente: il gioco da tavolo HeroQuest di Avalon Hill è un gioco di avventura fantasy stile dungeon crawler in cui i giocatori devono lavorare insieme per combattere mostri terrificanti e completare missioni epiche",
+      "id": 10
+    },
+    {
+      "name": "Jenga",
+      "price": 20,
+      "description": "Fai in modo di evitare che la torre crolli; ciò richiede abilità, strategia e fortuna",
+      "id": 11
+    },
+    {
+      "name": "Munchkin Cthulhu",
+      "price": 30,
+      "description": "Carte umoristiche... Sconfiggi i mostri con le tue regole!",
+      "id": 13
+    },
+    {
+      "name": "Cranium",
+      "price": 26,
+      "description": "I giocatori possono dare dimostrazione del proprio talento - sono previsti gioco di parole, schizzi a mano libera, attività di investigazione, recitazione e altro ancora",
+      "id": 14
+    },
+    {
+      "name": "Lupus in tabula",
+      "price": 20,
+      "description": "Nello sperduto villaggio di Tabula, alcuni abitanti sono affetti da licantropia. Ogni notte diventano lupi mannari e sbranano un innocente! Di giorno i superstiti si riuniscono dibattendo sul da farsi: alla fine della discussione linciano uno di loro, credendolo un lupo mannaro. Chi sopravvivrà al massacro?",
+      "id": 15
+    },
+    {
+      "name": "Si Oscuro Signore",
+      "price": 20,
+      "description": "Sì, Oscuro Signore è un party game d’ambientazione fantasy dal tono scanzonato ed umoristico, veloce da imparare e facile da giocare: sono sufficienti alcuni amici e un po’ di fantasia. I malvagi ed inetti servitori di Rigor Mortis, vero Genio del male, dovranno giustificarsi davanti al loro Signore, inventando storie improbabili e scaricando la colpa sui loro compagni di sventura.",
+      "id": 16
+    },
+    {
+      "name": "Brivido",
+      "price": 34,
+      "description": "Il gioco da tavolo da Brivido!",
+      "id": 17
+    },
+    {
+      "name": "Risiko!",
+      "price": 30,
+      "description": "onquista con astuzia i territori con il tuo esercito posizionando i carrarmatini ai confini e raggiungendo così l’obiettivo segreto pescato dalle carte all’inizio del gioco, vinci contro i tuoi avversari usando la strategia e riflettendo sulle mosse da compiere per conquistare i tuoi obiettivi",
+      "id": 18
+    },
+    {
+      "name": "Jumanji",
+      "price": 30,
+      "description": "AVVENTURIERI ATTENZIONE: QUESTO GIOCO NON INIZIATE SE NON INTENDETE TERMINARE! Jumanji il classico dei giochi da tavolo che permette di giocare in famiglia o con gli amici, da un minimo di 2 fino a un massimo di 4 giocatori, per divertirsi sfidando parenti e amici! Adatto a bamini dagli 8 anni in su, porta voi e i vostri compagni di avventura in una missione attraverso la giungla, risolvendo enigmi e completando sfide mentre cercate di non perdere i vostri Gettoni Vita",
+      "id": 19
+    },
+    {
+      "name": "Taboo",
+      "price": 25,
+      "description": "Fai in modo che i compagni di gioco pronuncino la parola misteriosa da indovinare senza nominare le parole proibite",
+      "id": 20
+    },
+    {
+      "name": "Forza 4",
+      "price": 18,
+      "description": "Fai la tua mossa e abbi la meglio - allinea 4 gettoni per primo",
+      "id": 21
+    },
+    {
+      "name": "Twister",
+      "price": 21,
+      "description": "Il Gioco Twister sfida i bambini: Il gioco Twister sfida i giocatori a mettere mani e piedi sul tappeto in diverse posizioni senza cadere",
+      "id": 22
+    },
+    {
+      "name": "Indovina Chi",
+      "price": 21,
+      "description": "Gioco interattivo per bambini: i bambini possono divertirsi un mondo usando le domande con risposta sì o no per indovinare il personaggio misterioso dell'avversario",
+      "id": 23
+    },
+    {
+      "name": "Cluedo",
+      "price": 26,
+      "description": "Risolvi il mistero della casa - spostati da una stanza all'altra e scopri chi è stato",
+      "id": 24
+    },
+    {
+      "name": "Uno",
+      "price": 10,
+      "description": "GIOCO DI CARTE CLASSICO in cui i giocatori abbinano numeri e colori per liberarsi di tutte le carte. Le regole sono facilissime da imparare: se si inizia a giocare a UNO, smettere diventa impossibile",
+      "id": 25
+    },
+    {
+      "name": "L'allegro chirurgo",
+      "price": 25,
+      "description": "Il gioco dell'Allegro Chirurgo sfida i bambini ad essere il medico, ma evitando il segnale d'allarmeIl gioco dell'Allegro Chirurgo sfida i bambini ad essere il medico, ma evitando il segnale d'allarme",
+      "id": 26
+    },
+    {
+      "name": "Indomimando",
+      "price": 25,
+      "description": "Gioco in scatola dei mimi",
+      "id": 27
     }
   ],
   "prices": [

@@ -1,0 +1,31 @@
+<ng-container *ngIf="cartItems.length>0; else empty">
+    <div class="row justify-content-center">
+        <h1 class="text-center">Il tuo carrello</h1>
+        <div class="row" *ngFor="let item of cartItems, let i = index">
+            <div class="col">
+                <h2> {{item.name}}</h2>
+            </div>
+            <div class="col-md-auto">
+                <h2>{{item.price}}€</h2>
+            </div>
+            <div class="col col-lg-2">
+                <button class="btn btn-danger" (click)="deleteFromCart(i)">X</button>
+            </div>
+        </div>
+        <h2 class="text-end">Totale: {{total()}}€</h2>
+        <form class="row justify-content-center">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Indirizzo di spedizione</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <button type="submit" class="btn btn-success" (click)="submit()">Invia</button>
+        </form>
+    </div>
+</ng-container>
+<ng-template #empty>
+    <h1>Il carrello è vuoto</h1>
+</ng-template>

@@ -1,0 +1,20 @@
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.link-interno {
+    text-decoration: none;
+    color: rgb(120, 118, 118);
+}
+
+.link-interno:hover {
+    text-decoration: underline;
+}
+
+.card {
+    width: 20%;
+    height: 250px;
+    padding: 2%;
+}

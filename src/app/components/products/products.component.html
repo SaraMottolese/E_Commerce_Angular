@@ -1,0 +1,12 @@
+<div class="px-4 py-5 my-5 text-center" *ngIf="items">
+    <h5 class="display-5 fw-bold">SCHEDA PRODOTTO</h5>
+    <div class="col-lg-6 mx-auto">
+        <h1>{{items.name}}</h1>
+        <h3>{{items.price}}€</h3>
+        <p class="lead mb-4">{{items.description}}</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3" (click)="addToCart(items.id)">Aggiungi al carrello</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Torna alla Home Page</button>
+        </div>
+    </div>
+</div>

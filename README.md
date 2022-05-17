@@ -1,5 +1,8 @@
 # FE0222BProgettoSettimana11
 
+è presente un solo service che gestisce tutti i moduli
+la Navbar essendo comune a tutti i componenti è stata posizionata in app.component
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
 ## Development server
